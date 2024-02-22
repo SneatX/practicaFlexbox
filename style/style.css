@@ -30,6 +30,9 @@
     flex-wrap: wrap;
 }
 
-.itemBox2{
-    width: 50%;
+.itemBox2-1{
+    width: 30%;
+}
+.itemBox2-2{
+    width: 70%;
 }
