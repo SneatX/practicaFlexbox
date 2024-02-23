@@ -9,6 +9,36 @@
 body{
     font-family: var(--letra-principal);
     text-align: center;
-    padding-top: 4vh;
+    display: flex;
+    justify-content: center;
 }
+
+/*CONTENEDORES PADRES*/
+
+.container{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+/*CONTENEDOR INICIO*/
+.div_inicio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.div_inicio img{
+    width: 50px;
+}
+
+.div_inicio h1{
+    padding-left: 2vh;
+}
+
 
