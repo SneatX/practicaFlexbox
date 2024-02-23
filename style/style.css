@@ -1,1 +1,17 @@
 @import url(variables.css);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    margin: 1em;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 0px #808080;
+}
