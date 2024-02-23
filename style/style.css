@@ -7,6 +7,7 @@
 
 
 .container{
+    font-family: var(--principal-font);
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -15,5 +16,6 @@
 
 .card{
     width: 15vw;
+    background: #d4d4d4;
     padding: 2vh;
 }
