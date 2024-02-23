@@ -1,1 +1,19 @@
 @import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 15vw;
+    padding: 2vh;
+}
