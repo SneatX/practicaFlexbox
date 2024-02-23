@@ -42,3 +42,22 @@ nav{
 }
 
 
+/*CONTENEDOR BOTONES*/
+.div_botones{
+    display: flex;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    gap: 20px;
+    color: gray;
+}
+
+li:hover{
+    color: #444444;
+    text-decoration:underline;
+    cursor: pointer;
+}
+
