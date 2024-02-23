@@ -7,7 +7,7 @@
 }
 
 body{
-
+    font-family: var(--font-principal);
 }
 
 .container{
@@ -27,10 +27,26 @@ li{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    align-content: center;
     flex-wrap: wrap;
 
+    padding: 10px;
+    background-color: #d8d6d6;
+    margin: 1px;
 }
 
 p{
     width: 90px;
+}
+
+button{
+    border: 0;
+    padding:2%;
+    background-color: white;
+}
+
+button:hover{
+    background-color: rgb(156, 156, 156);
+    cursor: pointer;
 }
