@@ -14,7 +14,7 @@ body{
 /*CONTENEDORES PADRES*/
 
 .container{
-    margin-top: 10%;
+    padding-top: 10px;
     display: flex;
     justify-content: center;
 }
@@ -29,17 +29,6 @@ nav{
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-.div_inicio img{
-    width: 50px;
-}
-
-.div_inicio img:hover{
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
-}
-
-.div_inicio h1{
-    padding-left: 2vh;
 }
 
 
