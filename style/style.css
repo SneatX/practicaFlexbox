@@ -1,0 +1,14 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--letra-principal);
+    text-align: center;
+    padding-top: 4vh;
+}
+
