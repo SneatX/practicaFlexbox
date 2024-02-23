@@ -9,17 +9,14 @@
 body{
     font-family: var(--letra-principal);
     text-align: center;
-    display: flex;
-    justify-content: center;
 }
 
 /*CONTENEDORES PADRES*/
 
 .container{
-    margin-top: 200px;
+    margin-top: 10%;
     display: flex;
     justify-content: center;
-    width: 70%;
 }
 nav{
     display: flex;
@@ -37,6 +34,10 @@ nav{
     width: 50px;
 }
 
+.div_inicio img:hover{
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+
 .div_inicio h1{
     padding-left: 2vh;
 }
@@ -52,12 +53,25 @@ ul{
     align-items: center;
     align-content: space-around;
     gap: 20px;
-    color: gray;
+    color: var(--color-principal);
 }
 
 li:hover{
-    color: #444444;
+    color: var(--color-secundario);
     text-decoration:underline;
     cursor: pointer;
 }
 
+/*CONTENEDOR IDIOMAS*/
+ button{
+    width: 40px;
+    height: 40px;
+    border: 0;
+    background: var(--color-principal);
+    color: white;
+ }
+
+ button:hover{
+    background: var(--color-terciario);
+    cursor: pointer;
+ }

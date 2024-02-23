@@ -1,3 +1,6 @@
 :root{
-    --letra-principal : sans-serif
+    --letra-principal : sans-serif;
+    --color-principal : #808080;
+    --color-secundario : #444444;
+    --color-terciario : #b1b1b1;
 }
