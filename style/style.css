@@ -1,1 +1,78 @@
 @import url(variables.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family: var(--font-primary);
+    background-color: skyblue;
+}
+
+.container{
+    display: flex;
+}
+.box{
+    margin: 2vw;
+    width: 16vw;
+    height: 55vh;
+    min-height: 480px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    /*
+    El primer valor define el desplazamiento horizontal
+    El segundo valor define el desplazamiento vertical
+    El tercer valor establece la difuminación de la sombra.
+    El cuarto valor (rgba(0, 0, 0, 0.1)) define el color y la opacidad de la sombra.
+    */
+}
+
+.title{
+    background-color: salmon;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 2vh;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding-top: 20px;
+
+    padding-bottom: 10px;
+}
+hr{
+    width: 120%;
+    margin-left: -10%;
+    border-color: rgb(255, 255, 255);
+}
+
+button{
+    border: 0;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+}
