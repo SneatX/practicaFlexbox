@@ -8,6 +8,7 @@
 body{
     display: flex;
     justify-content: center;
+    border: 0;
 
 }
 
@@ -19,37 +20,40 @@ main{
 /*----    ASIDE    ----*/
 
 aside{
+    min-width: 250px;
     width: 30%;
+    border: 0;
 }
 
-/*--------*/
+/*----Primera caja, titulo----*/
 
 .div-title-aside{
     display: flex;
     height: 50px;
     align-items: center;
+    border: 0;
 }
 
 .div-title-aside div{
-    border: 0;
     width: 25%;
     display: flex;
     justify-content: center;
+    border: 0;
 }
 
 .div-title-aside img{
-    border: 0;
     padding: 5px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    border: 0;
 }
 
 .div-title-aside h1{
     border: 0;
 }
 
-/*--------*/
+/*----Segunda caja, Dashboard----*/
 
 .div-title-dashboard{
     display: flex;
@@ -58,27 +62,28 @@ aside{
 }
 
 .div-title-dashboard div{
-    border: 0;
     width: 25%;
     display: flex;
     justify-content: center;
+    border: 0;
 }
 
 .div-title-dashboard img{
-    border: 0;
     padding: 10px;
     width: 65px;
     height: 50px;
+    border: 0;
 }
 
 .div-title-dashboard h1{
     border: 0;
 }
 
-/*--------*/
+/*----Tercera caja, Priemr acordeon aside----*/
 
 .div-acordeon-aside{
     display: flex;
+    border: 0;
 }
 
 .div-acordeon-aside .column-1{
@@ -118,13 +123,14 @@ aside{
     padding-left: 10px;
 }
 
-/*--------*/
+/*----Cuarta caja, Espacio en blanco----*/
 
 .div-espacio-blanco{
     height: 50px;
+    border: 0;
 }
 
-/*--------*/
+/*----Quinta caja, Segundo acordeon----*/
 
 .div-acordeon-aside-2{
     display: flex;
@@ -143,7 +149,6 @@ aside{
 
 .div-acordeon-aside-2 .column-1 img{
     width: 90%;
-    border: 0;
     border: 0;
 }
 
@@ -164,5 +169,48 @@ aside{
 }
 
 .div-acordeon-aside-2 .column-2 li{
+    height: 50px;
     padding-left: 10px;
+    display: flex;
+    justify-content: space-around;
 }
+
+.div-acordeon-aside-2 .column-2 li p{
+    border: 0;
+}
+
+.div-acordeon-aside-2 .column-2 li img{
+    width: 20%;
+    border: 0;
+}
+
+/*----Sexta caja, Sublistas del acordeon----*/
+
+.div-sublista{
+    display: flex;
+    border: 0;
+}
+
+.div-sublista .column-1{
+    width: 20%;
+    border: 0;
+}
+.div-sublista .column-2{
+    width: 13%;
+}
+.div-sublista .column-3{
+    width: 67%;
+    border: 0;
+}
+
+.div-sublista .column-3 ul{
+    border: 0;
+    list-style: none;
+}
+.div-sublista .column-3 li{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+/*--------*/
