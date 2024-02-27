@@ -1,6 +1,168 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
     border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+
+}
+
+main{
+    display: flex;
+    width: 50%;
+}
+
+/*----    ASIDE    ----*/
+
+aside{
+    width: 30%;
+}
+
+/*--------*/
+
+.div-title-aside{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.div-title-aside div{
+    border: 0;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.div-title-aside img{
+    border: 0;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.div-title-aside h1{
+    border: 0;
+}
+
+/*--------*/
+
+.div-title-dashboard{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.div-title-dashboard div{
+    border: 0;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.div-title-dashboard img{
+    border: 0;
+    padding: 10px;
+    width: 65px;
+    height: 50px;
+}
+
+.div-title-dashboard h1{
+    border: 0;
+}
+
+/*--------*/
+
+.div-acordeon-aside{
+    display: flex;
+}
+
+.div-acordeon-aside .column-1{
+    width: 20%;
+    border: 0;
+}
+
+.div-acordeon-aside .column-1 img{
+    width: 90%;
+    border: 0;
+}
+
+.div-acordeon-aside .column-1 ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div-acordeon-aside .column-1 ul, .div-acordeon-aside .column-2 ul{
+    list-style: none;
+    border: 0;
+}
+
+.div-acordeon-aside .column-1 li, .div-acordeon-aside .column-2 li{
+    height: 50px;
+}
+
+.div-acordeon-aside .column-2{
+    width: 80%;
+    border: 0;
+}
+
+.div-acordeon-aside .column-2 ul li{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+/*--------*/
+
+.div-espacio-blanco{
+    height: 50px;
+}
+
+/*--------*/
+
+.div-acordeon-aside-2{
+    display: flex;
+    border: 0;
+}
+
+.div-acordeon-aside-2 .column-1{
+    width: 20%;
+    border: 0;
+}
+
+.div-acordeon-aside-2 .column-1 li{
+    display: flex;
+    justify-content: center;
+}
+
+.div-acordeon-aside-2 .column-1 img{
+    width: 90%;
+    border: 0;
+    border: 0;
+}
+
+.div-acordeon-aside-2 .column-1 ul, .div-acordeon-aside-2 .column-2 ul{
+    list-style: none;
+    border: 0;
+}
+
+.div-acordeon-aside-2 .column-1 li, .div-acordeon-aside-2 .column-2 li{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.div-acordeon-aside-2 .column-2{
+    width: 80%;
+    border: 0;
+}
+
+.div-acordeon-aside-2 .column-2 li{
+    padding-left: 10px;
 }
