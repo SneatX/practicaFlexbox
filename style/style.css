@@ -9,7 +9,6 @@ body{
     display: flex;
     justify-content: center;
     border: 0;
-
 }
 
 main{
@@ -213,11 +212,17 @@ aside{
     align-items: center;
 }
 
+footer{
+    height: 131px;
+    
+}
+
 /*------------------------------------------------------*/
 
 
 section{
     width: 70%;
+    min-height: 780px;
 }
 
 /*Titulo de la seccion 1*/
@@ -256,7 +261,7 @@ section{
 
 /*Main del articulo*/
 .article-main{
-    border: 0;
+    margin: 20px;
 }
 
 .h1-title-article2{
@@ -343,4 +348,16 @@ section{
     background-color: black;
     border: 1px solid black;
     width: 80%;
+}
+
+/*Text area final*/
+
+.div-textContent{
+    margin: 30px;
+    padding: 10px;
+}
+
+textarea{
+    width: 100%;
+    height: 200px;
 }
