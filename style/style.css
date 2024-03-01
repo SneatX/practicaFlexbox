@@ -220,6 +220,7 @@ section{
     width: 70%;
 }
 
+/*Titulo de la seccion 1*/
 .section-title{
     height: 50px;
     position: relative;
@@ -235,9 +236,9 @@ section{
 .section-title img:last-child{
     width: 50px;
     position: relative;
-    border: 0;
     border-radius: 50px;
     padding: 5px;
+    border: 0;
 }
 
 .div-cuadroAbsolute{
@@ -246,10 +247,100 @@ section{
     top: 25px;
     padding: 30px;
     background-color: white;
-
 }
 
 .div-cuadroAbsolute ul, .div-cuadroAbsolute li{
     list-style: none;
     border: 0;
+}
+
+/*Main del articulo*/
+.article-main{
+    border: 0;
+}
+
+.h1-title-article2{
+    width: 40%;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.div-content-main{
+    padding: 25px;
+    border: 0;
+}
+
+.list-article-main{
+    display: flex;
+    list-style: none;
+    border: 0;
+}
+
+.list-article-main li, h1{
+    border: 0;
+}
+
+.div-title-card{
+    display: flex;
+    border: 0;
+    justify-content: space-between;
+}
+.div-title-card img{
+    width: 20px;
+    border: 0;
+}
+
+/*Graficas*/
+.div-principalGraphics{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+
+.div-container-card{
+    padding: 5px;
+    margin: 1%;
+}
+
+.div-principalGraphics > *{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-principalGraphics div > h1, p{
+    border: 0;
+}
+
+        /*barras*/
+.cont-barras{
+    border: 1px solid black;
+}
+
+.barra1{
+    height: 20px;
+    background-color: black;
+    border: 1px solid black;
+    width: 60%;
+}
+
+.barra2{
+    height: 20px;
+    background-color: black;
+    border: 1px solid black;
+    width: 30%;
+}
+
+.barra3{
+    height: 20px;
+    background-color: black;
+    border: 1px solid black;
+    width: 40%;
+}
+
+.barra4{
+    height: 20px;
+    background-color: black;
+    border: 1px solid black;
+    width: 80%;
 }
